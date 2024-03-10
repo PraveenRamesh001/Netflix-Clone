@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+        <title>
+            Netflix India-Watch TV Shows and web series
+        </title>
+        <style>
+.topbanner{
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index: 1;
+    overflow:hidden;
+}
+.shows{
+    width: 100%;
+    height: 100%;
+}
+.fullcontainer{
+    width:100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    background: rgba(11, 11, 10, 0.77);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.netflixlogo{
+    width: 160px;
+    height: 80x;
+}
+.signin{
+    background-color: #E50914;
+    padding:7px 17px;
+   text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 3%;
+    margin-right: 4.5%;
+    font-family: roboto;
+}
+.language{
+    margin-right: 2%;
+  
+}
+.lanbtn{
+    text-decoration: none;
+    color: white;
+}
+
+.li div{
+    display: block;
+
+}
+ li{
+    float: left;
+}
+.language,.signinbtn{
+    float: right;
+    margin-top: 1.5%;
+}
+.dropdown-menu{
+    background: transparent;
+   
+}
+.dropdown-item:hover{
+    background: rgba(11, 11, 10, 0.55);
+}
+.container2{
+    display: flex;
+    position: relative;
+    z-index: 3;
+    
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 50px;
+   font-family: roboto;
+   text-align: center;
+   margin-left: 5%;
+}
+.sub{
+    font-size: 26px;
+    margin: 16px 32px;
+    color: white;
+    font-family: roboto;
+}
+.navigationbar{
+    position: absolute;
+    
+}
+.membership{
+    font-size: 23px;
+    color: white;
+}
+input[type=text]
+{
+    margin-top: 6%;
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+}
+.getstarted{
+    background-color: red;
+    padding: 13.5px 13.5px;
+    text-decoration: none;
+    color: white;
+    font: roboto;
+    font-weight: 600;
+}
+.getstarted:hover{
+    color: white;
+}
+.fullcontainer2,.fullcontainer3{
+    height: 70%;
+    width: 100%;
+    background-color: #000000;
+    border-top: 8px solid #222222;
+    padding: 70px 45px;
+    display: flex;
+}
+
+.platform{
+    width: 70%;
+    height: 100%;
+   float: right;
+}
+.platform2{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    padding-left: 20px;
+
+}
+.image{
+    width: 50%;
+    height: 100%;
+   
+}
+.heading2{
+    font-size: 50px;
+    font-family: Noto Sans JP;
+    color: white;
+    padding-top: 50px;
+}
+.sub2{
+    font-size: 26px;
+    font-family: Noto Sans JP;
+    padding-top: 10px;
+    color: white;
+}
+@media only screen and (max-width: 700px) {
+    .membership{
+        text-align: center;
+    }
+    .netflixlogo{
+    width: 100px;
+    height: 50x;
+    margin-top: 1%;
+}
+.signin{
+
+    padding:5.5px 14px;
+
+    font-size: 12px;
+    border-radius: 3px;
+    margin-top: 1%;
+    margin-right: 3.5%;
+    
+}
+.language{
+    margin-top: 1.5%;
+}
+.heading{
+    font-size: 28.5px;
+    margin-top: 5.5%;
+}
+.sub{
+    font-size: 16px;
+    margin-left: 12px;
+}
+.membership{
+    font-size: 13.5px;
+    color: white;
+}
+input[type=text]
+{
+    margin-top: 5.5%;
+    padding:7px 7px 7px 7px;
+width: 210px;
+    
+}
+.getstarted{
+    padding: 11px;
+}
+.shows{
+    object-fit: cover;
+}
+.fullcontainer2{
+    flex-direction: column;
+    padding:30px ;
+
+}
+.fullcontainer3{
+    flex-direction: column-reverse;
+    padding: 30px;
+}
+.image{
+    padding-top: 10px;
+    width: 100%;
+    height: 50%;
+
+   
+}
+.platform2{
+    float: center;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 50%;
+    padding-left: 10px;
+
+}
+.heading2{
+    font-size: 26px;
+    font-family: Noto Sans JP;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+}
+.sub2{
+    font-size: 16px;
+   text-align: center;
+}
+}
+        </style>
+    </head>
+    <body>
+        <div class="topbanner">
+            <img class="shows" src="https://backgroundcheckall.com/wp-content/uploads/2017/12/netflix-background-9.jpg" alt="">
+        </div>
+<div class="fullcontainer">
+
+<div class="navigationbar">
+    <ul class="navigationitems">
+        <li class="brandlogo"><div>
+<img src="https://www.techdaily.com.au/b2/wp-content/uploads/2015/03/Netflix_Logo_Print_FourColorCMYK.png" class="netflixlogo" alt="">
+      
+
+</li></div>
+<li class="signinbtn"><a href="#" class="signin text-white">SignIn</a></li>
+ 
+
+<li class="language">
+    <div class="dropdown">
+    <a href="#" class="lanbtn right dropdown-toggle" data-bs-toggle="dropdown">English</a>
+    <div class="dropdown-menu">
+     <div ><a href="#" class="dropdown-item text-white">Tamil</a></div>
+
+    </div>
+    
+</div>
+</li>
+   </ul>
+
+
+   <div class="container container2">
+    <div class="heading text-white">
+        
+            Unlimited movies, TV <br> shows and more.
+      
+    </div>
+    <div class="sub">
+        Watch anywhere. Cancel anytime.
+       </div>
+       <div class="membership">Ready to watch? Enter your email to create or restart your membership.</div>
+       <div class="miailbar">
+        <input type="text" placeholder="Email address..." ><a href="#" class="getstarted">Get Started</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div class="fullcontainer2">
+<div class="text">
+<div class="heading2">
+    Enjoy on your TV.
+</div>
+<div class="sub2">
+    Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+</div>
+</div>
+<div class="image">
+    <img class="platform" src="https://www.smartdnsproxy.com/images/netflix-tv.png" alt="">
+</div>
+</div>
+
+<div class="fullcontainer3">
+    <div class="image">
+        <img class="platform2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+    </div>
+    <div class="text">
+    <div class="heading2">
+        Download your shows to watch offline.
+    </div>
+    <div class="sub2">
+        Save your favourites easily and always have something to watch.
+    </div>
+    </div>
+   
+    </div>
+
+    <div class="fullcontainer2">
+        <div class="text">
+        <div class="heading2">
+            Watch everywhere.
+        </div>
+        <div class="sub2">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+        </div>
+        </div>
+        <div class="image">
+            <img class="platform" src="https://mobilemarketingmagazine.com/wp-content/uploads/2015/08/Netflix-TV-tablet.png" alt="">
+        </div>
+        </div>
+
+        <div class="fullcontainer3">
+            <div class="image">
+                <img class="platform2" src="https://occ-0-4994-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="">
+            </div>
+            <div class="text">
+            <div class="heading2">
+                Create profiles for children.
+            </div>
+            <div class="sub2">
+                Send children on adventures with their favourite characters in a space made just for free with your membership.
+            </div>
+            </div>
+           
+            </div>
+
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>
